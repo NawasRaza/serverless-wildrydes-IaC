@@ -9,6 +9,10 @@ To deploy the WildRydes application, follow these steps:
 1. Clone this repository to your local machine.
 2. Install Terraform and configure AWS credentials.
 3. Run Terraform commands to apply the infrastructure changes.
+4. To clone the "Wild Rydes" repository, use:
+   ```
+    aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive
+   ```
 
 ## Usage
 ! Make sure you replace the attributes in "config.js" with your acual atttributes such as, User Pool Id, ClientID, region and your api invoke url.
